@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resep Kuliner Nusantara</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"/>
+
+    <style>
+        
+        main {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .Resep-Warisan {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+        }
+        .card-text {
+            margin: 0 0 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="resep.html">Resep</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="text-center">Resep Warisan Keluarga Nusantara</h2>
+            <div class="Resep-Warisan">
+                <div class="card">
+                    <img src="assets/image/nasikuning.jpg" alt="Produk 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Nasi Kuning</h5>
+                        <a href="nasikuning.html" class="btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/nasiuduk.jpg" alt="Produk 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Nasi Uduk</h5>
+                        <a href="nasiuduk.html" class="btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/lontong.jpg" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lontong Sayur</h5>
+                        <a href="lontong.html" class="btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/nasirames.jpg" alt="Produk 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Nasi Rames</h5>
+                        <a href="nasirames.html" class="btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/nasigoreng.jpg" alt="Produk 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Nasi Goreng</h5>
+                        <a href="nasigoreng.html" class="btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/satelilit.webp" alt="Produk 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Sate Lilit</h5>
+                        <a href="satelilit.html" class="btn">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Resep Kuliner Nusantara &#169; 2024, Fikri Raihan Pratama</p>
+    </footer>
+</body>
+</html>
